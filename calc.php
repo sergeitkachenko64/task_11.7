@@ -15,7 +15,7 @@
     };
 
     function funAorB($a, $b) {
-      $c = $a || $b;
+      $c = ($a || $b);
       displayBool($c);
     };
 
