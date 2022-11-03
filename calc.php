@@ -2,11 +2,9 @@
     function displayBool($c) {
       if ($c == 1) {
         echo 'true';
-        } else if ($c == 0) {
-        echo 'false';
         } else {
-        echo 'none';
-        };
+          echo 'false';
+        }
     };
 
     function funNotA($a, $b) {
