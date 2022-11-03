@@ -1,39 +1,41 @@
 <?php
-    function boo($c) {
-     if ($c=="bool(true)") {
+    function displayBool($c) {
+      if ($c == 1) {
         echo 'true';
-      } else {
+        } else if ($c == 0) {
         echo 'false';
-      }
+        } else {
+        echo 'none';
+        };
     };
 
     function funNotA($a, $b) {
-      $c=(!$a);
-      boo($c);
+      $c = (!$a);
+      displayBool($c);
     };
 
     function funAorB($a, $b) {
-      $c=($a || $b);
-      boo($c);
+      $c = $a || $b;
+      displayBool($c);
     };
 
     function funAandB($a, $b) {
-      $c=($a && $b);
-      boo($c);
+      $c = ($a && $b);
+      displayBool($c);
     };
 
     function funAxorB($a, $b) {
-      $c=($a xor $b);
-      boo($c);
+      $c = ($a xor $b);
+      displayBool($c);
     };
 
     function flexibleComparison($a, $b) {
-      $c=($a==$b);
-      boo($c);
+      $c = ($a == $b);
+      displayBool($c);
     };
 
     function strictComparison($a, $b) {
-      $c=($a===$b);
-      boo($c);
+      $c = ($a === $b);
+      displayBool($c);
     };
 ?>
