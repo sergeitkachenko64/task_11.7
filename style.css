@@ -27,3 +27,10 @@ td {
   border: 1px solid gray;
   padding: 3px;
 }
+
+.conclusion {
+  text-align: start;
+  background: #e0d5c1;
+  color: rgb(66, 66, 66);
+  font-style: italic;
+}
