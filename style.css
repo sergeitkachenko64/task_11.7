@@ -1,5 +1,5 @@
 .container {
-  font-family: 'Gill Sans', sans-serif;
+  font-family: 'Raleway-Regular', sans-serif;
   text-align: center;
   max-width: 90%;
   padding-left: 1em;
@@ -33,4 +33,11 @@ td {
   background: #e0d5c1;
   color: rgb(66, 66, 66);
   font-style: italic;
+}
+
+@font-face {
+  font-family: 'Raleway-Regular';
+  src: url('../fonts/Raleway-Regular.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 300;
 }
